@@ -1,0 +1,78 @@
+body {
+
+    background:#caf0f8;
+    font-family: "Nunito" sans-serif;
+}
+
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #3E494E;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .navbar-brand {
+    color: #3E494E;
+    font-size: 1.5rem;
+}
+
+
+.navbar.scrolled { /*navbar untill a certain point*/
+    background: #ade8f4;
+    transition: background 1000ms;
+}
+
+
+@media (max-width: 1200px) {
+
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    
+}
+
+.footer{
+    /* background-color: #ade8f4;
+    margin:0px auto;*/
+    padding: 20px 0px 20px 0px; 
+    
+    margin:0px auto;
+    background: #ade8f4;
+    color:floralwhite;
+    font-family: "Nunito" sans-serif;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #caf0f8;
+    color: #3E494E;
+    font-family: "Nunito" sans-serif;
+    }
+
+nav ul ul{
+    position: absolute;
+    top:80px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul li:hover > ul{
+    top:50px;
+opacity:1;
+visibility: visible;
+background-color: #ade8f4;
+}
