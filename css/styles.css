@@ -30,7 +30,10 @@ body {
 .navbar.scrolled { /*navbar untill a certain point*/
     background: #ade8f4;
     transition: background 1000ms;
+    
 }
+
+
 
 
 @media (max-width: 1200px) {
@@ -59,7 +62,7 @@ body {
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #caf0f8;
+    background: #ade8f4;
     color: #3E494E;
     font-family: "Nunito" sans-serif;
     }
