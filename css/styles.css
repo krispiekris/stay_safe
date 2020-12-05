@@ -67,7 +67,7 @@ body {
     font-family: "Nunito" sans-serif;
     }
 
-nav ul ul{
+    nav ul ul{
     position: absolute;
     top:80px;
     opacity: 0;
