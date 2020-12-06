@@ -64,7 +64,8 @@ body {
     margin:0px auto;
     background: #ade8f4;
     color: #3E494E;
-    font-family: "Nunito" sans-serif;
+    /* font-family: "Nunito" sans-serif; */
+    font-family: 'Castoro', serif;
     }
 
     nav ul ul{
